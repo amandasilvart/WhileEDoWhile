@@ -1,0 +1,27 @@
+//● Imprima os números pares de 0 à 100 usando FOR
+
+for(integer num = 0; num<=100; num+=2){
+system.debug(num);
+}
+
+//● Mostre os anos de 1930 à 2023 de 4 em 4
+
+for(integer ano = 1930; ano<=2023; ano+=4){
+system.debug(ano);
+}
+
+//● Usando while, mostre valores de 0 a 100 de 10 em 10.
+integer valores= 0;
+do {
+system.debug(valores);
+valores+=10;
+
+}while(valores<=100);
+
+//● Usando o do-while, mostre valores de 70 a 0
+integer valores= 70;
+do {
+system.debug(valores);
+valores-=1;
+
+}while(valores>=0);
